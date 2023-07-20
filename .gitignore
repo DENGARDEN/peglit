@@ -171,3 +171,10 @@ yarn-error.log*
 
 # Redis
 *.rdb
+
+ViennaRNA-2.5.1/
+ViennaRNA-2.5.1.tar.gz
+*.csv#
+*.csv
+*.CSV
+*.xlsx
