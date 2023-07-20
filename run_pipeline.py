@@ -1,4 +1,4 @@
-DATA_DIR = "pegLIT_kkw.csv"
+DATA_DIR = "2528(2).csv"
 
 
 def callback(data: dict):
@@ -24,6 +24,7 @@ if __name__ == "__main__":
     from tqdm import tqdm
 
     batch_size = mp.cpu_count()
+    # batch_size =1 
 
     # Read CSV and chunk it
     df_gen = pd.read_csv(DATA_DIR, chunksize=batch_size)
